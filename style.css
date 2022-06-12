@@ -28,7 +28,7 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
     color: #4d2323;
@@ -44,7 +44,7 @@ main {
     margin-bottom: 50px;
 }
 
-li {
+.section-item {
     list-style-type: none;
 }
 
