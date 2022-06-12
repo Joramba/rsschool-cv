@@ -40,17 +40,24 @@ body {
     justify-content: space-between;
 }
 
+main {
+    margin-bottom: 50px;
+}
+
 li {
     list-style-type: none;
 }
 
 header {
     background-color: #805B28;
-    border-bottom: 1px solid black;
 }
 
 footer {
     border-top: 2px solid black;
+}
+
+.footer .container {
+    height: 70px;
 }
 
 * {
@@ -84,7 +91,6 @@ footer {
 
 .nav-item a:hover {
     color: #C9C9C9; 
-    border-bottom: 3px solid black;
 }
 
 .section-item a {
@@ -157,3 +163,23 @@ footer {
 .name {
     margin-bottom: 20px;
 }
+
+.nav-item-img{
+    width: 80px;
+    height: 100px;
+}
+
+.nav-item-logo {
+    width: 80px;
+    height: 80px;
+}
+
+
+.nav-list-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+
