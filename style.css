@@ -119,6 +119,10 @@ footer {
     color: #212121; 
 }
 
+.section-title-main {
+    line-height: 40px;
+}
+
 .section-item {
     position: relative;
     padding-left: 30px;
