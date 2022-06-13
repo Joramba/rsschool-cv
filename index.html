@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/cv.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Heorhi Bazhko CV</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="profile_data">
+                <section class="section" id="profile">
+                    <div class="img_box">
+                        <img src="assets/images/profile.png" alt="My photo" width="380" height="507">
+                    </div>
+                    <br class="section-title-main">
+                    <h1>
+                        Heorhi Bazhko
+                        <br>
+                        Web Developer
+                    </h1>
+                </section>
+            </div>
+            <section class="section" id="contacts">
+                <h2 class="section-title">
+                    My Contact Info:
+                </h2>
+                <ul>
+                    <li class="section-item">Location: Poznan, Poland</li>
+                    <li class="section-item">Phone: +48 789 412 900</li>
+                    <li class="section-item">E-mail: <a href="mailto:jorkabozko@gmail.com"
+                            title="email">jorkabozko@gmail.com</a></li>
+                    <li class="section-item">LinkedIn: <a
+                            href="https://www.linkedin.com/in/heorhi-bazhko-180721238/">Heorhi Bazhko</a></li>
+                    <li class="section-item">GitHub: <a href="https://github.com/Joramba">@Joramba</a></li>
+                    <li class="section-item">Discord: <a href="https://discordapp.com/users/298040828813901825/">Joramba
+                            ☢#3275</a></li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">
+                    About Me
+                </h2>
+                <p>
+                    I'm a second-year student of Poznan University of Technology. I have good interpersonal skills, am
+                    an excellent team worker and very willing to learn and develop new skills.
+                    I am reliable and dependable and often seek new responsibilities within a wide range of employment
+                    areas.
+                </p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">
+                    Skills
+                </h2>
+                <ul>
+                    <li class="section-item">HTML5, SCSS</li>
+                    <li class="section-item">Native JavaScript, React + Redux </li>
+                    <li class="section-item">C/C++</li>
+                    <li class="section-item">Native Python</li>
+                    <li class="section-item">R</li>
+                    <li class="section-item">Git, GitHub</li>
+                    <li class="section-item">VS Code, IntelliJ IDEA</li>
+                    <li class="section-item">Adobe Photoshop, Sony Vegas</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">
+                    Code example
+                </h2>
+                <pre>
+                    <code>
+    function withoutRepeat(arr) {
+        for (let i = 0; i &lt; arr.length; i++) {
+            const elem = arr[i];
+            if (!(elem in obj)) {
+                obj[elem] = 1;
+            } else {
+                obj[elem] += 1;
+            }
+        }
+        const keys = Object.keys(obj);
+        keys.forEach(elem =&gt; {
+            if (obj[elem] === 1) {
+                newArr.push(+elem)
+            }
+        })
+        return newArr
+    }
+                    </code>
+                </pre>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">
+                    Education
+                </h2>
+                <p>
+                    University: Poznan University of Technology (still)
+                </p>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">
+                    Projects
+                </h2>
+                <ol>
+                    <li>
+                        Marvel Information Portal using free Marvel API (HTML, CSS, node.js, React):
+                        <br>
+                        <a href="https://github.com/Joramba/marvel_portal">https://github.com/Joramba/marvel_portal</a>
+                    </li>
+                    <li>
+                        Project with hero admin panel(React+Redux):
+                        <br>
+                        <a href="https://github.com/Joramba/Heroes">https://github.com/Joramba/Heroes</a>
+                    </li>
+                </ol>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">
+                    Languages
+                </h2>
+                <ul>
+                    <li class="section-item">English - B2</li>
+                    <li class="section-item">Polish - Intermediate</li>
+                    <li class="section-item">Russian - Native</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <ul class="nav-list-footer">
+                <li class="nav-item-footer"><a href="https://github.com/Joramba"><img class="nav-item-logo"
+                            src="/assets/images/github_logo.jpg" alt="Logo"></a></li>
+                <li class="nav-item-footer">2022</li>
+                <li class="nav-item-footer"><a href="https://rs.school/js/"><img class="nav-item-img"
+                            src="/assets/images/rs_school_js.svg" alt="Logo"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
