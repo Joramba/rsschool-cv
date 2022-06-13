@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Joramba.github.io/rsschool-cv/
