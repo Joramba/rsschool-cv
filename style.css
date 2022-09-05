@@ -131,8 +131,8 @@ footer {
 .section-item::before {
     content: "";
     position: absolute;
-    top: 8px;
-    left: 0px;
+    top: 3px;
+    left: 3px;
     width: 10px;
     height: 10px; 
     border: 1px solid #212121;
