@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/cv.ico">
+    <link rel="stylesheet" href="assets/fontawesome-free-6.2.0-web/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Heorhi Bazhko CV</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container_header">
+            <div class="profile_data">
+                <div class="section_header" id="profile">
+                    <div class="img_box">
+                        <img src="assets/images/profile.png" alt="My photo" width="380" height="507">
+                    </div>
+                    <div class="profile_name">
+                        Heorhi Bazhko
+                    </div>
+                </div>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/heorhi.bazhko">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://github.com/Joramba">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/heorhi-bazhko-180721238/">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.instagram.com/leelhosti/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <main class="main">
+        <div class="container">
+            <section class="section section_menu" id="home">
+                <div class="home_title">
+                    <h2 class="home_welcome">
+                        Welcome
+                    </h2>
+                    <h1 class="home_name">
+                        I AM HEORHI BAZHKO
+                    </h1>
+                </div>
+                <div class="home_info">
+                    <h2>Software Engineer</h2>
+                    <p>Software Front-End Developer </p>
+                </div>
+                <a href="#about" class="home_button">About</a>
+            </section>
+            <section class="section section-about" id="about"
+                style="background-color: rgb(32, 32, 32); background-size: cover;">
+                <div class="about_container">
+                    <div class="about_image">
+                        <img src="assets/images/about.png" alt="About Image" class="about_img">
+                    </div>
+                    <div class="about_text">
+                        <h2 class="section-title">
+                            About Me
+                        </h2>
+                        <p>
+                            I’m a third-year student of Poznan University of Technology. I have good interpersonal
+                            skills,
+                            am an
+                            excellent team worker and very willing to learn and develop new skills. I am reliable and
+                            dependable
+                            and often seek new responsibilities within a wide range of employment areas.
+                        </p>
+                        <h2 class="section-title">
+                            Education
+                        </h2>
+                        <ul>
+                            <li>Poznan University of Technology (still)</li>
+                            <li>Cracow University of Technology (Preparatory course for foreign students, Computer
+                                Science )
+                            </li>
+                        </ul>
+                        <a href="#skills" class="about_button">My Skills</a>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="skills">
+                <div class="skills_container">
+                    <div class="skills_text">
+                        <h2 class="section-title">
+                            Skills
+                        </h2>
+                        <ul>
+                            <li class="section-item">HTML5</li>
+                            <li class="section-item">CSS (Framework Bootstrap, Preprocessor SASS/SCSS)</li>
+                            <li class="section-item">JavaScript (Fundamentals, Functional Programming, OOP,
+                                Asynchronous
+                                JavaScript, ES6+, DOM), JSON. </li>
+                            <li class="section-item">React JS (JSX, Virtual DOM, Node.js), Redux (intermediate level
+                                knowledge).
+                            </li>
+                            <li class="section-item">Module Bundlers: Gulp, Webpack. </li>
+                            <li class="section-item">C/C++</li>
+                            <li class="section-item">Native Python</li>
+                            <li class="section-item">Good knowledge in the Algorithms and Data structure (AVL,
+                                Binary
+                                trees,
+                                Graph, sorting algorithms)</li>
+                            <li class="section-item">R</li>
+                            <li class="section-item">Version control: Git (remote service GitHub)</li>
+                            <li class="section-item">Windows OS, Linux (Ubuntu, Fedora)</li>
+                            <li class="section-item">Editors: VSCode, VS, Sublime, PyCharm community</li>
+                            <li class="section-item">Adobe Photoshop, Sony Vegas</li>
+                        </ul>
+                    </div>
+                    <div class="skills_image">
+                        <img src="assets/images/web-developer.svg" alt="Image" class="skills_img">
+                    </div>
+                </div>
+                <!-- <a href="#code" class="home_button">Code</a> -->
+            </section>
+            <section class="section" id="code" style="background-color: rgb(32, 32, 32); background-size: cover;">
+                <div class="form_container">
+                    <h2 class="section-title">
+                        Code example
+                    </h2>
+                    <pre>
+                    <code>
+    function withoutRepeat(arr) {
+        for (let i = 0; i &lt; arr.length; i++) {
+            const elem = arr[i];
+            if (!(elem in obj)) {
+                obj[elem] = 1;
+            } else {
+                obj[elem] += 1;
+            }
+        }
+        const keys = Object.keys(obj);
+        keys.forEach(elem =&gt; {
+            if (obj[elem] === 1) {
+                newArr.push(+elem)
+            }
+        })
+        return newArr
+    }
+                    </code>
+                </pre>
+                </div>
+                <a href="#projects" class="home_button">My Projects</a>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">
+                    Projects
+                </h2>
+                <div class="projects_container">
+                    <div class="box">
+                        <div class="box_container">
+                            <div class="project_card">
+                                <img src="assets/images/card1.jpg" alt="Card1" class="card_img">
+                                <div class="card_text">
+                                    Momentum app using Weather API, quotes API and Flickr API(Images Api)
+                                </div>
+                                <a href="https://joramba.github.io/momentum/momentum/" class="card_button">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box_container">
+                            <div class="project_card">
+                                <img src="assets/images/card2.jpg" alt="Card2" class="card_img">
+                                <div class="card_text">
+                                    Coffee app using React
+                                </div>
+                                <a href="https://joramba.github.io/Coffee_app/" class="card_button">Demo</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box_container">
+                            <div class="project_card">
+                                <img src="assets/images/card3.jpg" alt="Card3" class="card_img">
+                                <div class="card_text">
+                                    Marvel Information Portal using free Marvel API (HTML, SCSS, node.js, React)
+                                </div>
+                                <a href="https://github.com/Joramba/marvel_portal" class="card_button">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="languages" style="background-color: rgb(32, 32, 32); background-size: cover;">
+                <div class="form_container">
+                    <h2 class="section-title">
+                        Languages
+                    </h2>
+                    <ul>
+                        <li class="section-item">English - B2 (ACERT)</li>
+                        <li class="section-item">Polish - C1</li>
+                        <li class="section-item">Russian - Native</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">
+                    Contact with Me
+                </h2>
+                <form class="form">
+                    <div class="form_inputs">
+                        <div class="form_contacts">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your E-mail" required>
+                            <input type="tel" id="phone" name="phone" required placeholder="Your Phone">
+                        </div>
+                        <textarea class="message" type="text" name="message" placeholder="Your Message"
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="submit_button">Submit</button>
+                </form>
+                <div class="contact_container">
+                    <ul>
+                        <li class="form_item">
+                            <i class="fa-solid fa-mobile-screen"></i></i>
+                            <div>Location:</div> Poznan, Poland
+                        </li>
+                        <li class="form_item"><i class="fa-regular fa-envelope"></i>E-mail: <a
+                                href="mailto:jorkabozko@gmail.com" title="email">jorkabozko@gmail.com</a></li>
+                        <li class="form_item">
+                            <i class="fa-brands fa-discord"></i>Discord: <a
+                                href="https://discordapp.com/users/298040828813901825/">Joramba
+                                ☢#3275</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <footer class="footer" style="background-color: rgb(32, 32, 32); background-size: cover;">
+        <div class="footer_container">
+            <ul class="nav-list-footer">
+                <li class="nav-item-footer"><a href="https://github.com/Joramba"><i class="fa-brands fa-github"></i></a>
+                </li>
+                <li class="nav-item-footer">2022</li>
+                <li class="nav-item-footer"><a href="https://rs.school/js/"><img class="nav-item-img"
+                            src="assets/images/rs_school_js.svg" alt="Rsschool logo"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src='config.js'></script>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
