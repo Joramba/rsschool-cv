@@ -16,6 +16,12 @@
     }
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -36,13 +42,12 @@ body {
 }
 
 p {
-    margin: 0;
+    margin: 0 0 20px 0;
     padding: 0;
 }
 
 main {
     margin-left: 260px;
-    margin-bottom: 50px;
 }
 
 .section {
@@ -72,7 +77,7 @@ main {
 }
 
 
-.header {
+header {
     width: 260px;
     position: fixed;
     height: 100%;
@@ -87,7 +92,8 @@ main {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center
+    align-items: center;
+    justify-content: space-between;
 }
 
 .section_header {
@@ -151,7 +157,7 @@ main {
 
 
 .social-icons {
-    margin: 100px auto 0;
+    margin: 0 auto;
 }
 
 .social-icons i {
@@ -273,7 +279,7 @@ main {
     margin: 0 auto;
     display: flex;
     max-width: 950px;
-    gap: 80px;
+    gap: 110px;
 }
 
 .section-title {
@@ -281,6 +287,7 @@ main {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 4px;
+    margin-bottom: 20px;
 }
 
 .section-item {
@@ -323,7 +330,7 @@ main {
     font-weight: bold;
     text-decoration: none;
     text-transform: none;
-    width: 57px;
+    width: 119px;
 }
 
 
@@ -343,6 +350,10 @@ main {
 
 .skills_text {
     margin-left: 30px;
+}
+
+.skills_text ul {
+    padding: 0;
 }
 
 .skills_img {
@@ -475,7 +486,7 @@ main {
     font-weight: bold;
     text-decoration: none;
     text-transform: none;
-    width: 37px;
+    width: 98px;
 }
 
 /* project section end */
@@ -595,14 +606,18 @@ textarea:focus {
 }
 
 
-/* contact section end */
 
+/* contact section end */
 
 /* footer section start */
 
 footer {
     border-top: 2px solid black;
     margin-left: 260px;
+}
+
+.footer_container {
+    padding: 20px;
 }
 
 .nav-item-footer i {
@@ -616,7 +631,7 @@ footer {
 
 .nav-item-img {
     width: 80px;
-    height: 100px;
+    height: 50px;
 }
 
 .nav-item-logo {
@@ -626,7 +641,7 @@ footer {
 
 .nav-list-footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     list-style: none;
 }

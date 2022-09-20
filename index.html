@@ -7,55 +7,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/cv.ico">
     <link rel="stylesheet" href="assets/fontawesome-free-6.2.0-web/css/all.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Heorhi Bazhko CV</title>
 </head>
 
 <body>
-    <div class="header">
-        <div class="container_header">
-            <div class="profile_data">
-                <div class="section_header" id="profile">
-                    <div class="img_box">
-                        <img src="assets/images/profile.png" alt="My photo" width="380" height="507">
-                    </div>
-                    <div class="profile_name">
-                        Heorhi Bazhko
+    <header class="header">
+        <div class="container_header" data-aos="fade-right">
+            <div>
+                <div class="profile_data">
+                    <div class="section_header" id="profile">
+                        <div class="img_box">
+                            <img src="assets/images/profile.png" alt="My photo" width="380" height="507">
+                        </div>
+                        <div class="profile_name">
+                            Heorhi Bazhko
+                        </div>
                     </div>
                 </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
-                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
-                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                </ul>
-            </nav>
             <div class="social-icons">
-                <a href="https://www.facebook.com/heorhi.bazhko">
+                <a href="https://www.facebook.com/heorhi.bazhko" target="_blank">
                     <i class="fa-brands fa-facebook"></i>
                 </a>
-                <a href="https://github.com/Joramba">
+                <a href="https://github.com/Joramba" target="_blank">
                     <i class="fa-brands fa-github"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/heorhi-bazhko-180721238/">
+                <a href="https://www.linkedin.com/in/heorhi-bazhko-180721238/" target="_blank">
                     <i class="fa-brands fa-linkedin-in"></i>
                 </a>
-                <a href="https://www.instagram.com/leelhosti/">
+                <a href="https://www.instagram.com/leelhosti/" target="_blank">
                     <i class="fa-brands fa-instagram"></i>
                 </a>
             </div>
         </div>
-    </div>
+    </header>
 
     <main class="main">
         <div class="container">
             <section class="section section_menu" id="home">
-                <div class="home_title">
+                <div class="home_title" data-aos="zoom-in">
                     <h2 class="home_welcome">
                         Welcome
                     </h2>
@@ -63,19 +65,19 @@
                         I AM HEORHI BAZHKO
                     </h1>
                 </div>
-                <div class="home_info">
+                <div class="home_info" data-aos="zoom-in">
                     <h2>Software Engineer</h2>
                     <p>Software Front-End Developer </p>
                 </div>
-                <a href="#about" class="home_button">About</a>
+                <a href="#about" class="home_button" data-aos="zoom-in">About</a>
             </section>
             <section class="section section-about" id="about"
                 style="background-color: rgb(32, 32, 32); background-size: cover;">
                 <div class="about_container">
-                    <div class="about_image">
+                    <div class="about_image" data-aos="fade-right">
                         <img src="assets/images/about.png" alt="About Image" class="about_img">
                     </div>
-                    <div class="about_text">
+                    <div class="about_text" data-aos="fade-left">
                         <h2 class="section-title">
                             About Me
                         </h2>
@@ -91,10 +93,19 @@
                             Education
                         </h2>
                         <ul>
-                            <li>Poznan University of Technology (still)</li>
-                            <li>Cracow University of Technology (Preparatory course for foreign students, Computer
+                            <li class="section-item">Poznan University of Technology (still)</li>
+                            <li class="section-item">Cracow University of Technology (Preparatory course for foreign
+                                students, Computer
                                 Science )
                             </li>
+                        </ul>
+                        <h2 class="section-title">
+                            Languages
+                        </h2>
+                        <ul>
+                            <li class="section-item">English - B2 (ACERT)</li>
+                            <li class="section-item">Polish - C1</li>
+                            <li class="section-item">Russian - Native</li>
                         </ul>
                         <a href="#skills" class="about_button">My Skills</a>
                     </div>
@@ -102,7 +113,7 @@
             </section>
             <section class="section" id="skills">
                 <div class="skills_container">
-                    <div class="skills_text">
+                    <div class="skills_text" data-aos="fade-right">
                         <h2 class="section-title">
                             Skills
                         </h2>
@@ -129,13 +140,14 @@
                             <li class="section-item">Adobe Photoshop, Sony Vegas</li>
                         </ul>
                     </div>
-                    <div class="skills_image">
+                    <div class="skills_image" data-aos="fade-left">
                         <img src="assets/images/web-developer.svg" alt="Image" class="skills_img">
                     </div>
                 </div>
                 <!-- <a href="#code" class="home_button">Code</a> -->
             </section>
-            <section class="section" id="code" style="background-color: rgb(32, 32, 32); background-size: cover;">
+            <section class="section" id="code" style="background-color: rgb(32, 32, 32); background-size: cover;"
+                data-aos="fade-up">
                 <div class="form_container">
                     <h2 class="section-title">
                         Code example
@@ -165,63 +177,54 @@
                 <a href="#projects" class="home_button">My Projects</a>
             </section>
             <section class="section" id="projects">
-                <h2 class="section-title">
+                <h2 class="section-title" data-aos="zoom-in">
                     Projects
                 </h2>
                 <div class="projects_container">
-                    <div class="box">
+                    <div class="box" data-aos="flip-left">
                         <div class="box_container">
                             <div class="project_card">
                                 <img src="assets/images/card1.jpg" alt="Card1" class="card_img">
                                 <div class="card_text">
                                     Momentum app using Weather API, quotes API and Flickr API(Images Api)
                                 </div>
-                                <a href="https://joramba.github.io/momentum/momentum/" class="card_button">Demo</a>
+                                <a href="https://joramba.github.io/momentum/momentum/" class="card_button"
+                                    target="_blank">Demo</a>
                             </div>
                         </div>
                     </div>
-                    <div class="box">
+                    <div class="box" data-aos="flip-left">
                         <div class="box_container">
                             <div class="project_card">
                                 <img src="assets/images/card2.jpg" alt="Card2" class="card_img">
                                 <div class="card_text">
                                     Coffee app using React
                                 </div>
-                                <a href="https://joramba.github.io/Coffee_app/" class="card_button">Demo</a>
+                                <a href="https://joramba.github.io/Coffee_app/" class="card_button"
+                                    target="_blank">Demo</a>
                             </div>
-
                         </div>
                     </div>
-                    <div class="box">
+                    <div class="box" data-aos="flip-left">
                         <div class="box_container">
                             <div class="project_card">
                                 <img src="assets/images/card3.jpg" alt="Card3" class="card_img">
                                 <div class="card_text">
                                     Marvel Information Portal using free Marvel API (HTML, SCSS, node.js, React)
                                 </div>
-                                <a href="https://github.com/Joramba/marvel_portal" class="card_button">Demo</a>
+                                <a href="https://github.com/Joramba/marvel_portal" class="card_button"
+                                    target="_blank">Demo</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="section" id="languages" style="background-color: rgb(32, 32, 32); background-size: cover;">
-                <div class="form_container">
-                    <h2 class="section-title">
-                        Languages
-                    </h2>
-                    <ul>
-                        <li class="section-item">English - B2 (ACERT)</li>
-                        <li class="section-item">Polish - C1</li>
-                        <li class="section-item">Russian - Native</li>
-                    </ul>
-                </div>
-            </section>
-            <section class="section" id="contacts">
-                <h2 class="section-title">
+            <section class="section" id="contacts" style="background-color: rgb(32, 32, 32); background-size: cover;"
+                data-aos="fade-in">
+                <h2 class="section-title" data-aos="zoom-in">
                     Contact with Me
                 </h2>
-                <form class="form">
+                <form class="form" data-aos="fade-up">
                     <div class="form_inputs">
                         <div class="form_contacts">
                             <input type="text" name="name" placeholder="Your Name" required>
@@ -233,7 +236,7 @@
                     </div>
                     <button type="submit" class="submit_button">Submit</button>
                 </form>
-                <div class="contact_container">
+                <div class="contact_container" data-aos="fade-up">
                     <ul>
                         <li class="form_item">
                             <i class="fa-solid fa-mobile-screen"></i></i>
@@ -250,8 +253,8 @@
             </section>
         </div>
     </main>
-    
-    <footer class="footer" style="background-color: rgb(32, 32, 32); background-size: cover;">
+
+    <footer class="footer">
         <div class="footer_container">
             <ul class="nav-list-footer">
                 <li class="nav-item-footer"><a href="https://github.com/Joramba"><i class="fa-brands fa-github"></i></a>
@@ -263,6 +266,7 @@
         </div>
     </footer>
     <script src='config.js'></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="module" src="index.js"></script>
 </body>
 
